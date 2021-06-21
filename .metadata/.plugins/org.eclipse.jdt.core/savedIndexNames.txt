@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\eofo\Documents\Trabalhos Java\QA\Automação\.metadata\.plugins\org.eclipse.jdt.core
+2856883335.index
+1201096014.index
+2816354680.index
+1167060561.index
