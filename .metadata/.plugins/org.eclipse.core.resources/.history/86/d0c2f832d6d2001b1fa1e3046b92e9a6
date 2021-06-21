@@ -1,6 +1,6 @@
 package negocio;
 
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 
 import java.util.ArrayList;
@@ -26,9 +26,13 @@ public class GerenciadoraClientesTest_Ex1 {
 		
 		Cliente cliente = gerClientes.pesquisaCliente(1);
 		
-		assertThat(cliente.getId(), is(1));
+		extracted(cliente);
 		assertThat(cliente.getEmail(), is("gugafarias@gmail.com"));
 		
+	}
+
+	private void extracted(Cliente cliente) {
+		assertThat(cliente.getId(), is(1));
 	}
 
 }
