@@ -13,7 +13,7 @@ import org.junit.Test;
  * Classe de teste criada para garantir o funcionamento das principais operações
  * sobre contas, realizadas pela classe {@link GerenciadoraContas}.
  * 
- * @author Gustavo Farias
+ * @author Eduardo Felizardo
  * @date 21/01/2035 
  */
 public class GerenciadoraContasTest_Ex6 {
@@ -25,7 +25,7 @@ public class GerenciadoraContasTest_Ex6 {
 	 * estando ambos os clientes ativos e havendo saldo suficiente para tal transferência
 	 * ocorrer com sucesso.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -59,7 +59,7 @@ public class GerenciadoraContasTest_Ex6 {
 	 * Teste básico da tentativa de transferência de um valor da conta de um cliente para outro
 	 * quando não há saldo suficiente.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test

@@ -13,7 +13,7 @@ import org.junit.Test;
  * Classe de teste criada para garantir o funcionamento das principais operações
  * sobre clientes, realizadas pela classe {@link GerenciadoraClientes}.
  * 
- * @author Gustavo Farias
+ * @author Eduardo Felizardo
  * @date 21/01/2035 
  */
 public class GerenciadoraClientesTest_Ex5 {
@@ -23,7 +23,7 @@ public class GerenciadoraClientesTest_Ex5 {
 	/**
 	 * Teste básico da pesquisa de um cliente a partir do seu ID.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -34,7 +34,7 @@ public class GerenciadoraClientesTest_Ex5 {
 		// criando alguns clientes
 		int idCLiente01 = 1;
 		int idCLiente02 = 2;
-		Cliente cliente01 = new Cliente(idCLiente01, "Gustavo Farias", 31, "gugafarias@gmail.com", 1, true);
+		Cliente cliente01 = new Cliente(idCLiente01, "Eduardo Felizardo", 31, "gugafarias@gmail.com", 1, true);
 		Cliente cliente02 = new Cliente(idCLiente02, "Felipe Augusto", 34, "felipeaugusto@gmail.com", 1, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
@@ -55,7 +55,7 @@ public class GerenciadoraClientesTest_Ex5 {
 	/**
 	 * Teste básico da remoção de um cliente a partir do seu ID.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -66,7 +66,7 @@ public class GerenciadoraClientesTest_Ex5 {
 		// criando alguns clientes
 		int idCLiente01 = 1;
 		int idCLiente02 = 2;
-		Cliente cliente01 = new Cliente(idCLiente01, "Gustavo Farias", 31, "gugafarias@gmail.com", 1, true);
+		Cliente cliente01 = new Cliente(idCLiente01, "Eduardo Felizardo", 31, "gugafarias@gmail.com", 1, true);
 		Cliente cliente02 = new Cliente(idCLiente02, "Felipe Augusto", 34, "felipeaugusto@gmail.com", 1, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco

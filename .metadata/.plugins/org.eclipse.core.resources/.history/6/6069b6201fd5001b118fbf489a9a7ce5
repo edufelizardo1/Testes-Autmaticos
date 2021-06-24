@@ -13,7 +13,7 @@ import org.junit.Test;
  * Classe de teste criada para garantir o funcionamento das principais operações
  * sobre contas, realizadas pela classe {@link GerenciadoraContas}.
  * 
- * @author Eduardo Felizardo
+ * @author Gustavo Farias
  * @date 21/01/2035 
  */
 public class GerenciadoraContasTest_Ex11 {
@@ -25,7 +25,7 @@ public class GerenciadoraContasTest_Ex11 {
 	 * estando ambos os clientes ativos e havendo saldo suficiente para tal transferência
 	 * ocorrer com sucesso.
 	 * 
-	 * @author Eduardo Felizardo
+	 * @author Gustavo Farias
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -59,7 +59,7 @@ public class GerenciadoraContasTest_Ex11 {
 	 * Teste básico da tentativa de transferência de um valor da conta de um cliente para outro
 	 * quando não há saldo suficiente, mas o saldo é positivo.
 	 * 
-	 * @author Eduardo Felizardo
+	 * @author Gustavo Farias
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -93,7 +93,7 @@ public class GerenciadoraContasTest_Ex11 {
 	 * Teste básico da tentativa de transferência de um valor da conta de um cliente para outro
 	 * quando não há saldo suficientee o saldo é negativo.
 	 * 
-	 * @author Eduardo Felizardo
+	 * @author Gustavo Farias
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -127,7 +127,7 @@ public class GerenciadoraContasTest_Ex11 {
 	 * Teste básico da tentativa de transferência de um valor da conta de um cliente para outro
 	 * quando o saldo do cliente origem é negativo e do cliente destino também é negativo.
 	 * 
-	 * @author Eduardo Felizardo
+	 * @author Gustavo Farias
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -160,7 +160,7 @@ public class GerenciadoraContasTest_Ex11 {
 	/**
 	 * Teste básico da tentativa de transferência de um valor nulo da conta de um cliente para outro.
 	 * 
-	 * @author Eduardo Felizardo
+	 * @author Gustavo Farias
 	 * @date 21/01/2035
 	 */
 	@Test

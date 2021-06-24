@@ -15,7 +15,7 @@ import org.junit.Test;
  * Classe de teste criada para garantir o funcionamento das principais operações
  * sobre clientes, realizadas pela classe {@link GerenciadoraClientes}.
  * 
- * @author Gustavo Farias
+ * @author Eduardo Felizardo
  * @date 21/01/2035 
  */
 public class GerenciadoraClientesTest_Ex10 {
@@ -30,7 +30,7 @@ public class GerenciadoraClientesTest_Ex10 {
 		/* ========== Montagem do cenário ========== */
 		
 		// criando alguns clientes
-		Cliente cliente01 = new Cliente(idCLiente01, "Gustavo Farias", 31, "gugafarias@gmail.com", 1, true);
+		Cliente cliente01 = new Cliente(idCLiente01, "Eduardo Felizardo", 31, "gugafarias@gmail.com", 1, true);
 		Cliente cliente02 = new Cliente(idCLiente02, "Felipe Augusto", 34, "felipeaugusto@gmail.com", 1, true);
 		
 		// inserindo os clientes criados na lista de clientes do banco
@@ -49,7 +49,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Teste básico da pesquisa de um cliente a partir do seu ID.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -66,7 +66,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Teste básico da pesquisa por um cliente que não existe.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -83,7 +83,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Teste básico da remoção de um cliente a partir do seu ID.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -102,7 +102,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Teste da tentativa de remoção de um cliente inexistente.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @date 21/01/2035
 	 */
 	@Test
@@ -121,7 +121,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Validação da idade de um cliente quando a mesma está no intervalo permitido.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @throws IdadeNaoPermitidaException 
 	 * @date 21/01/2035
 	 */
@@ -141,7 +141,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Validação da idade de um cliente quando a mesma está no intervalo permitido.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @throws IdadeNaoPermitidaException 
 	 * @date 21/01/2035
 	 */
@@ -161,7 +161,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Validação da idade de um cliente quando a mesma está no intervalo permitido.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @throws IdadeNaoPermitidaException 
 	 * @date 21/01/2035
 	 */
@@ -181,7 +181,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Validação da idade de um cliente quando a mesma está abaixo intervalo permitido.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @throws IdadeNaoPermitidaException 
 	 * @date 21/01/2035
 	 */
@@ -204,7 +204,7 @@ public class GerenciadoraClientesTest_Ex10 {
 	/**
 	 * Validação da idade de um cliente quando a mesma está acima intervalo permitido.
 	 * 
-	 * @author Gustavo Farias
+	 * @author Eduardo Felizardo
 	 * @throws IdadeNaoPermitidaException 
 	 * @date 21/01/2035
 	 */
