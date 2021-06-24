@@ -1859,3 +1859,45 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.texteditor.ITextEd
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:35:24.884
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lWnLvcOm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:11.711
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:11.760
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7ca165b0[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=966)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:11.761
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.004
+!MESSAGE Boot LS startup time from start to initialized: 4241ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.165
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BswYTuduisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.167
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.169
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.170
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.171
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.171
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BswYTudu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.172
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.174
+!MESSAGE buffering callback sts4.classpath.BswYTudu SistemaBancario false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.175
+!MESSAGE executing callback sts4.classpath.BswYTudu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:36:16.734
+!MESSAGE executing callback sts4.classpath.BswYTudu SUCCESS [done]
