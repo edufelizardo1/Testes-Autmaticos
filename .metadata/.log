@@ -1847,3 +1847,15 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.texteditor.ITextEd
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:33:22.524
 !MESSAGE executing callback sts4.classpath.lWnLvcOm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:35:24.880
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lWnLvcOm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:35:24.881
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lWnLvcOm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:35:24.883
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-24 15:35:24.884
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lWnLvcOm => OK
