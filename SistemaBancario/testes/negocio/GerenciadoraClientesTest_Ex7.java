@@ -1,6 +1,7 @@
 package negocio;
 
 import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 
 import java.util.ArrayList;
@@ -39,14 +40,14 @@ public class GerenciadoraClientesTest_Ex7 {
 		
 		gerClientes = new GerenciadoraClientes(clientesDoBanco);
 	
-//		System.out.println("Before foi executado");
+		System.out.println("Before foi executado");
 	}
 
 	@After
 	public void tearDown() {
 		gerClientes.limpa();
 		
-//		System.out.println("After foi executado");
+		System.out.println("After foi executado");
 	}
 	
 	/**
